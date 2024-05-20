@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D5E1EF;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#card {
+    height: 80%;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#qr-code {
+    height: auto;
+    width: 90%;
+    border-radius: 20px;
+    margin: 0 5%;
+}
+
+.attribution {
+    width: 100%;
+}
