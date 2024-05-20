@@ -18,23 +18,74 @@ main {
 }
 
 #card {
-    height: 80%;
-    width: 35%;
+    height: 60%;
+    width: 75%;
+    max-width: 290px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 17px;
 }
 
 #qr-code {
     height: auto;
-    width: 90%;
-    border-radius: 20px;
-    margin: 0 5%;
+    width: 88%;
+    border-radius: 17px;
+    margin: 0 6%;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .attribution {
     width: 100%;
+}
+
+#text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 87%;
+    text-align: center;
+    font-family: helvetica, verdana, sans-serif;
+}
+
+.title {
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.sub-text {
+    color: gray;
+    font-weight: 100;
+    font-size: 13px;
+    padding-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 1440px) {
+
+    #card {
+        height: 47%;
+        max-width: 300px;
+        width: 28%;
+    }
+
+    #text {
+        width: 80%;
+        padding-bottom: 0.5rem;
+    }
+    
+    #qr-code {
+        height: auto;
+        width: 93%;
+        margin: 0 3.5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        font-size: 19px;
+        padding-bottom: 1.3rem;
+    }
 }
